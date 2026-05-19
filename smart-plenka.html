@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART-плёнки — GLASSCO | Стекло с управляемой прозрачностью</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><div class="logo-icon">G</div><span class="logo-text">GLASSCO</span></a>
+      <nav class="nav">
+        <div class="nav-item"><a href="index.html" class="nav-link">Главная</a></div>
+        <div class="nav-item"><a href="steklopakety.html" class="nav-link">Стеклопакеты</a></div>
+        <div class="nav-item">
+          <a href="resheniya.html" class="nav-link active">Решения <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
+          <div class="dropdown">
+            <a href="smart-plenka.html" class="dropdown-link">✨ SMART-плёнки</a>
+            <a href="furnitura.html" class="dropdown-link">🔩 Премиум-фурнитура</a>
+            <a href="zashita-detei.html" class="dropdown-link">🛡️ Защита для детей</a>
+            <a href="moskitnye-setki.html" class="dropdown-link">🪟 Москитные сетки</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="portfolio.html" class="nav-link">Портфолио</a></div>
+        <div class="nav-item"><a href="kontakty.html" class="nav-link">Контакты</a></div>
+      </nav>
+      <div class="header-right">
+        <a href="tel:+992931234567" class="header-phone">+992 93 123-45-67</a>
+        <button class="btn btn-primary" data-modal="modal-smart">Смотреть демо</button>
+      </div>
+      <button class="burger" id="burger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html" class="mobile-nav-link">Главная</a>
+  <a href="steklopakety.html" class="mobile-nav-link">Стеклопакеты</a>
+  <a href="resheniya.html" class="mobile-nav-link">Решения</a>
+  <a href="portfolio.html" class="mobile-nav-link">Портфолио</a>
+  <a href="kontakty.html" class="mobile-nav-link">Контакты</a>
+  <div style="margin-top:24px;"><button class="btn btn-primary btn-lg btn-full" data-modal="modal-smart">Узнать подробнее</button></div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="breadcrumb"><a href="index.html">Главная</a><span class="breadcrumb-sep">/</span><a href="resheniya.html">Решения</a><span class="breadcrumb-sep">/</span><span>SMART-плёнки</span></div>
+      <div class="hero-badge">✨ Инновационное решение</div>
+      <h1>Стекло, которое умеет быть <span>матовым</span></h1>
+      <p class="hero-desc">SMART-плёнка с электронным управлением прозрачностью. Нажатие кнопки — и стекло становится непрозрачным.</p>
+      <div class="hero-btns">
+        <button class="btn btn-primary btn-lg" data-modal="modal-smart">Запросить демонстрацию</button>
+        <a href="kontakty.html" class="btn btn-outline btn-lg">Связаться с нами</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Как это работает -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="section-header centered">
+      <div class="section-label">Принцип работы</div>
+      <h2 class="section-title">Как это работает</h2>
+    </div>
+    <div class="grid-3">
+      <div style="text-align:center;">
+        <div class="step-num" style="margin:0 auto 16px;">1</div>
+        <div style="font-size:36px;margin-bottom:12px;">⚡</div>
+        <div class="feature-title">Подаётся напряжение</div>
+        <div class="feature-desc">220В переменного тока подаётся на плёнку через контроллер или выключатель.</div>
+      </div>
+      <div style="text-align:center;">
+        <div class="step-num" style="margin:0 auto 16px;">2</div>
+        <div style="font-size:36px;margin-bottom:12px;">💫</div>
+        <div class="feature-title">Кристаллы выстраиваются</div>
+        <div class="feature-desc">Жидкие кристаллы в плёнке ориентируются в одну сторону — стекло становится прозрачным.</div>
+      </div>
+      <div style="text-align:center;">
+        <div class="step-num" style="margin:0 auto 16px;">3</div>
+        <div style="font-size:36px;margin-bottom:12px;">🔲</div>
+        <div class="feature-title">Стекло матовое</div>
+        <div class="feature-desc">Без напряжения кристаллы расположены хаотично — стекло непрозрачное. Экономит энергию.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Применение -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Применение</div>
+      <h2 class="section-title">Где применяется SMART-плёнка</h2>
+    </div>
+    <div class="grid-4">
+      <div style="padding:24px;border:1px solid var(--border);border-radius:var(--radius-lg);text-align:center;">
+        <div style="font-size:36px;margin-bottom:12px;">🏢</div>
+        <div class="feature-title">Офисные перегородки</div>
+        <div class="feature-desc" style="font-size:13px;">Конфиденциальность в переговорных комнатах и кабинетах директора.</div>
+      </div>
+      <div style="padding:24px;border:1px solid var(--border);border-radius:var(--radius-lg);text-align:center;">
+        <div style="font-size:36px;margin-bottom:12px;">🏥</div>
+        <div class="feature-title">Медицинские учреждения</div>
+        <div class="feature-desc" style="font-size:13px;">Кабинеты врачей, процедурные. Гигиенично и современно.</div>
+      </div>
+      <div style="padding:24px;border:1px solid var(--border);border-radius:var(--radius-lg);text-align:center;">
+        <div style="font-size:36px;margin-bottom:12px;">🛁</div>
+        <div class="feature-title">Ванные комнаты</div>
+        <div class="feature-desc" style="font-size:13px;">Стекло вместо шторки. Прозрачно когда нужно, матово — когда надо.</div>
+      </div>
+      <div style="padding:24px;border:1px solid var(--border);border-radius:var(--radius-lg);text-align:center;">
+        <div style="font-size:36px;margin-bottom:12px;">🏬</div>
+        <div class="feature-title">Витрины магазинов</div>
+        <div class="feature-desc" style="font-size:13px;">Интерактивные витрины. Демонстрация или приватность — ваш выбор.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Характеристики -->
+<section class="section-sm bg-light">
+  <div class="container">
+    <div class="grid-2" style="gap:48px;align-items:start;">
+      <div>
+        <div class="section-label">Технические характеристики</div>
+        <h2 class="section-title" style="margin-bottom:24px;">Параметры SMART-плёнки</h2>
+        <div class="spec-list">
+          <div class="spec-item"><span class="spec-label">Рабочее напряжение</span><span class="spec-value">220В / 50Гц</span></div>
+          <div class="spec-item"><span class="spec-label">Время переключения</span><span class="spec-value">&lt; 0.1 сек</span></div>
+          <div class="spec-item"><span class="spec-label">Светопропускание (вкл.)</span><span class="spec-value">80–85%</span></div>
+          <div class="spec-item"><span class="spec-label">Светопропускание (выкл.)</span><span class="spec-value">&lt; 5%</span></div>
+          <div class="spec-item"><span class="spec-label">Потребляемая мощность</span><span class="spec-value">5–7 Вт/м²</span></div>
+          <div class="spec-item"><span class="spec-label">Срок службы</span><span class="spec-value">&gt; 10 лет</span></div>
+          <div class="spec-item"><span class="spec-label">Рабочая температура</span><span class="spec-value">-30°C до +60°C</span></div>
+          <div class="spec-item"><span class="spec-label">Управление</span><span class="spec-value">Выключатель / Wi-Fi / Пульт</span></div>
+        </div>
+      </div>
+      <div>
+        <div style="background:linear-gradient(135deg,#0D1B2A,#2563EB);border-radius:20px;aspect-ratio:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;color:white;">
+          <div style="font-size:72px;">✨</div>
+          <div style="font-size:18px;font-weight:700;text-align:center;padding:0 24px;">SMART-стекло</div>
+          <div style="font-size:14px;color:rgba(255,255,255,0.7);text-align:center;padding:0 24px;">Нажмите кнопку — и стекло стало непрозрачным</div>
+        </div>
+        <div style="margin-top:20px;padding:24px;background:white;border:1px solid var(--border);border-radius:var(--radius-lg);">
+          <div style="font-size:13px;color:var(--text-muted);">Цена от</div>
+          <div style="font-size:1.8rem;font-weight:800;color:var(--primary);">3 500 сом/м²</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">включая материал и монтаж</div>
+          <button class="btn btn-primary btn-full" style="margin-top:16px;" data-modal="modal-smart">Запросить расчёт</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container" style="text-align:center;">
+    <h2>Хотите увидеть демонстрацию?</h2>
+    <p>Приезжайте в наш шоу-рум или оставьте заявку — расскажем всё подробно</p>
+    <div class="cta-btns" style="justify-content:center;">
+      <button class="btn btn-white btn-lg" data-modal="modal-smart">Запросить демонстрацию</button>
+      <a href="kontakty.html" class="btn btn-outline btn-lg">Наш адрес</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-logo"><div class="logo-icon">G</div><span class="footer-logo-text">GLASSCO</span></div><p class="footer-desc">Производство стеклопакетов с 2012 года.</p></div>
+      <div><div class="footer-col-title">Решения</div><div class="footer-links"><a href="smart-plenka.html" class="footer-link">SMART-плёнки</a><a href="furnitura.html" class="footer-link">Фурнитура</a><a href="moskitnye-setki.html" class="footer-link">Москитные сетки</a><a href="zashita-detei.html" class="footer-link">Защита для детей</a></div></div>
+      <div><div class="footer-col-title">Компания</div><div class="footer-links"><a href="o-kompanii.html" class="footer-link">О нас</a><a href="portfolio.html" class="footer-link">Портфолио</a><a href="kontakty.html" class="footer-link">Контакты</a></div></div>
+      <div><div class="footer-col-title">Контакты</div><div class="footer-contact-item"><span>📞</span><a href="tel:+992931234567" style="color:inherit;">+992 93 123-45-67</a></div><div class="footer-contact-item"><span>📍</span><span>ул. Рудаки 15, Душанбе</span></div></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 GLASSCO.</span></div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modal-smart">
+  <div class="modal">
+    <button class="modal-close" data-close-modal>✕</button>
+    <h2 class="modal-title">Запросить демонстрацию SMART-плёнки</h2>
+    <p class="modal-subtitle">Приезжайте в шоу-рум или выезд мастера с образцом — бесплатно.</p>
+    <form data-submit>
+      <div class="form-group"><label>Имя</label><input type="text" class="form-control" placeholder="Ваше имя" required></div>
+      <div class="form-group"><label>Телефон *</label><input type="tel" class="form-control" placeholder="+992 XX XXX-XXXX" required></div>
+      <div class="form-group"><label>Объект</label><input type="text" class="form-control" placeholder="Офис, квартира, магазин..."></div>
+      <div class="form-group"><label>Площадь (примерно)</label><input type="text" class="form-control" placeholder="Например: 20 м²"></div>
+      <button type="submit" class="btn btn-primary btn-lg btn-full">Запросить демонстрацию</button>
+      <p class="form-note" style="text-align:center;margin-top:12px;">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+    </form>
+  </div>
+</div>
+
+<a href="https://wa.me/992931234567" class="chat-btn" target="_blank">💬</a>
+<script src="script.js"></script>
+</body>
+</html>
