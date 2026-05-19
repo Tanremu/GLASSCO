@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фурнитура премиум-класса — GLASSCO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header light" id="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><div class="logo-icon">G</div><span class="logo-text">GLASSCO</span></a>
+      <nav class="nav">
+        <div class="nav-item"><a href="index.html" class="nav-link">Главная</a></div>
+        <div class="nav-item"><a href="steklopakety.html" class="nav-link">Стеклопакеты</a></div>
+        <div class="nav-item">
+          <a href="resheniya.html" class="nav-link active">Решения <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
+          <div class="dropdown">
+            <a href="smart-plenka.html" class="dropdown-link">✨ SMART-плёнки</a>
+            <a href="furnitura.html" class="dropdown-link">🔩 Премиум-фурнитура</a>
+            <a href="zashita-detei.html" class="dropdown-link">🛡️ Защита для детей</a>
+            <a href="moskitnye-setki.html" class="dropdown-link">🪟 Москитные сетки</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="portfolio.html" class="nav-link">Портфолио</a></div>
+        <div class="nav-item"><a href="kontakty.html" class="nav-link">Контакты</a></div>
+      </nav>
+      <div class="header-right">
+        <a href="tel:+992931234567" class="header-phone">+992 93 123-45-67</a>
+        <button class="btn btn-primary" data-modal="modal-zamer">Подобрать фурнитуру</button>
+      </div>
+      <button class="burger" id="burger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html" class="mobile-nav-link">Главная</a>
+  <a href="steklopakety.html" class="mobile-nav-link">Стеклопакеты</a>
+  <a href="resheniya.html" class="mobile-nav-link">Решения</a>
+  <a href="portfolio.html" class="mobile-nav-link">Портфолио</a>
+  <a href="kontakty.html" class="mobile-nav-link">Контакты</a>
+  <div style="margin-top:24px;"><button class="btn btn-primary btn-lg btn-full" data-modal="modal-zamer">Подобрать фурнитуру</button></div>
+</div>
+
+<section class="page-hero light">
+  <div class="container">
+    <div class="breadcrumb dark"><a href="index.html">Главная</a><span class="breadcrumb-sep">/</span><a href="resheniya.html">Решения</a><span class="breadcrumb-sep">/</span><span>Фурнитура</span></div>
+    <h1>Фурнитура премиум-класса</h1>
+    <p>От 10 000 установленных комплектов. Проверено временем. Гарантия 15 лет.</p>
+    <div style="margin-top:24px;"><button class="btn btn-primary btn-lg" data-modal="modal-zamer">Получить каталог</button></div>
+  </div>
+</section>
+
+<!-- Виды фурнитуры -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Виды фурнитуры</div>
+      <h2 class="section-title">Для ваших окон</h2>
+    </div>
+    <div class="grid-4">
+      <div class="product-card">
+        <div style="font-size:40px;margin-bottom:16px;text-align:center;">🔧</div>
+        <h3 style="font-size:1rem;">Стандартная (Roto)</h3>
+        <p style="font-size:13px;color:var(--text-muted);margin-top:8px;">Поворотно-откидная фурнитура для жилых и офисных окон. Надёжная, долговечная.</p>
+        <div class="product-price" style="font-size:1rem;">от 2 500 сом/окно</div>
+        <button class="btn btn-sm btn-outline-dark btn-full" style="margin-top:12px;" data-modal="modal-zamer">Выбрать</button>
+      </div>
+      <div class="product-card" style="border-color:var(--primary);">
+        <div class="product-badge badge-blue">Популярное</div>
+        <div style="font-size:40px;margin-bottom:16px;text-align:center;">🔐</div>
+        <h3 style="font-size:1rem;">С ограничением (Defender)</h3>
+        <p style="font-size:13px;color:var(--text-muted);margin-top:8px;">Ограничитель открывания. Незаменима в домах с детьми. Окно открывается на 10 см.</p>
+        <div class="product-price" style="font-size:1rem;">от 3 200 сом/окно</div>
+        <button class="btn btn-sm btn-primary btn-full" style="margin-top:12px;" data-modal="modal-zamer">Выбрать</button>
+      </div>
+      <div class="product-card">
+        <div style="font-size:40px;margin-bottom:16px;text-align:center;">🛡️</div>
+        <h3 style="font-size:1rem;">Противовзломная (Siegenia)</h3>
+        <p style="font-size:13px;color:var(--text-muted);margin-top:8px;">Грибовидные цапфы, стальные штульпы. Устойчивость к взлому класса RC-2.</p>
+        <div class="product-price" style="font-size:1rem;">от 4 800 сом/окно</div>
+        <button class="btn btn-sm btn-outline-dark btn-full" style="margin-top:12px;" data-modal="modal-zamer">Выбрать</button>
+      </div>
+      <div class="product-card">
+        <div style="font-size:40px;margin-bottom:16px;text-align:center;">🏗️</div>
+        <h3 style="font-size:1rem;">Для большого стекла</h3>
+        <p style="font-size:13px;color:var(--text-muted);margin-top:8px;">Усиленные петли и запоры для тяжёлых и панорамных конструкций от 80 кг.</p>
+        <div class="product-price" style="font-size:1rem;">от 6 500 сом/окно</div>
+        <button class="btn btn-sm btn-outline-dark btn-full" style="margin-top:12px;" data-modal="modal-zamer">Выбрать</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Сравнение брендов -->
+<section class="section-sm bg-light">
+  <div class="container">
+    <div class="section-header"><h2 class="section-title">Сравнение ведущих брендов</h2></div>
+    <div class="table-container">
+      <table class="data-table">
+        <thead>
+          <tr><th>Бренд</th><th>Страна</th><th>Гарантия</th><th>Класс</th><th>Цена от</th><th></th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Roto</strong></td><td>🇩🇪 Германия</td><td>10 лет</td><td>Стандарт</td><td class="price-col">2 500 сом</td><td class="btn-cell"><button class="btn btn-sm btn-outline-dark" data-modal="modal-zamer">Выбрать</button></td></tr>
+          <tr><td><strong>Siegenia</strong></td><td>🇩🇪 Германия</td><td>15 лет</td><td>Премиум</td><td class="price-col">4 800 сом</td><td class="btn-cell"><button class="btn btn-sm btn-primary" data-modal="modal-zamer">Выбрать</button></td></tr>
+          <tr><td><strong>KBE</strong></td><td>🇩🇪 Германия</td><td>10 лет</td><td>Стандарт+</td><td class="price-col">3 100 сом</td><td class="btn-cell"><button class="btn btn-sm btn-outline-dark" data-modal="modal-zamer">Выбрать</button></td></tr>
+          <tr><td><strong>MACO</strong></td><td>🇦🇹 Австрия</td><td>15 лет</td><td>Премиум</td><td class="price-col">4 200 сом</td><td class="btn-cell"><button class="btn btn-sm btn-outline-dark" data-modal="modal-zamer">Выбрать</button></td></tr>
+          <tr><td><strong>GU</strong></td><td>🇩🇪 Германия</td><td>12 лет</td><td>Премиум</td><td class="price-col">3 900 сом</td><td class="btn-cell"><button class="btn btn-sm btn-outline-dark" data-modal="modal-zamer">Выбрать</button></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container" style="text-align:center;">
+    <h2>Подберём фурнитуру бесплатно</h2>
+    <p>Специалист проконсультирует и рассчитает стоимость под ваш проект</p>
+    <div class="cta-btns" style="justify-content:center;">
+      <button class="btn btn-white btn-lg" data-modal="modal-zamer">Получить консультацию</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-logo"><div class="logo-icon">G</div><span class="footer-logo-text">GLASSCO</span></div><p class="footer-desc">Производство стеклопакетов с 2012 года.</p></div>
+      <div><div class="footer-col-title">Решения</div><div class="footer-links"><a href="smart-plenka.html" class="footer-link">SMART-плёнки</a><a href="furnitura.html" class="footer-link">Фурнитура</a><a href="moskitnye-setki.html" class="footer-link">Москитные сетки</a></div></div>
+      <div><div class="footer-col-title">Компания</div><div class="footer-links"><a href="o-kompanii.html" class="footer-link">О нас</a><a href="portfolio.html" class="footer-link">Портфолио</a><a href="kontakty.html" class="footer-link">Контакты</a></div></div>
+      <div><div class="footer-col-title">Контакты</div><div class="footer-contact-item"><span>📞</span><a href="tel:+992931234567" style="color:inherit;">+992 93 123-45-67</a></div><div class="footer-contact-item"><span>📍</span><span>ул. Рудаки 15, Душанбе</span></div></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 GLASSCO.</span></div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modal-zamer">
+  <div class="modal">
+    <button class="modal-close" data-close-modal>✕</button>
+    <h2 class="modal-title">Подобрать фурнитуру</h2>
+    <p class="modal-subtitle">Специалист свяжется с вами в течение 30 минут</p>
+    <form data-submit>
+      <div class="form-group"><label>Имя</label><input type="text" class="form-control" placeholder="Ваше имя" required></div>
+      <div class="form-group"><label>Телефон *</label><input type="tel" class="form-control" placeholder="+992 XX XXX-XXXX" required></div>
+      <div class="form-group"><label>Что интересует</label><select class="form-control"><option>Стандартная фурнитура (Roto)</option><option>С ограничением (Defender)</option><option>Противовзломная (Siegenia)</option><option>Для большого стекла</option><option>Не знаю — нужна консультация</option></select></div>
+      <div class="form-group"><label>Количество окон</label><input type="number" class="form-control" placeholder="Например: 8"></div>
+      <button type="submit" class="btn btn-primary btn-lg btn-full">Получить консультацию</button>
+      <p class="form-note" style="text-align:center;margin-top:12px;">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+    </form>
+  </div>
+</div>
+
+<a href="https://wa.me/992931234567" class="chat-btn" target="_blank">💬</a>
+<script src="script.js"></script>
+</body>
+</html>
